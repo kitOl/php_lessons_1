@@ -47,6 +47,10 @@
     $distance = sqrt(pow($x2 - $x1, 2) + pow($y2 - $y1, 2));
     echo "Расстояние между точками: $distance\n";
 
+    $distance = hypot($x2 - $x1, $y2 - $y1);
+    echo "Расстояние между точками: $distance\n";
+
+
 
 
 
